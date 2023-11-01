@@ -6,7 +6,7 @@ RUN \
     wget \
     unzip \
     bash && \
-  curl -s https://api.github.com/repos/fjaros/wowchat/releases/latest \
+  curl -s https://api.github.com/repos/skeewirt/WoWChat-Turtle/latest \
     | grep "browser_download_url.*zip" \
     | cut -d '"' -f 4 \
     | wget -qi - && \
