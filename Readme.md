@@ -38,7 +38,7 @@ $ docker run -d \
   --name=wowchat \
   -v path/to/config/wowchat.conf:/wowchat.conf \
   --restart unless-stopped \
-  nope01/wowchat-docker:latest
+  skeewirt/wowchat-turtle-docker:latest
 ```
 
 ---
