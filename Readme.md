@@ -24,7 +24,7 @@ version: "3"
 
 services:
   wowchat:
-    image: nope01/wowchat-docker:latest
+    image: skeewirt/wowchat-turtle-docker:latest
     container_name: wowchat
     volumes:
       - path/to/config/wowchat.conf:/wowchat.conf
